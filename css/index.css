@@ -65,32 +65,32 @@
           justify-content: space-between;
 }
 .news .news-item .news1 {
-  margin-right: 100px;
+  width: 50%;
+  cursor: pointer;
 }
 .news .news-item .news1 img {
-  width: 50%;
+  width: 90%;
+}
+.news .news-item .news1 p {
+  font-size: 12px;
+  color: gray;
+}
+.news .news-item .news1:hover {
+  opacity: 0.7;
+}
+.news .news-item .news2 {
+  width: 75%;
+  cursor: pointer;
 }
 .news .news-item .news2 img {
-  width: 50%;
+  width: 70%;
 }
-.news .news-item2 {
-  margin-top: 40px;
-  margin-bottom: 40px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+.news .news-item .news2 p {
+  font-size: 12px;
+  color: gray;
 }
-.news .news-item2 .news3 {
-  margin-right: 100px;
-}
-.news .news-item2 .news3 img {
-  width: 50%;
-}
-.news .news-item2 .news4 img {
-  width: 50%;
+.news .news-item .news2:hover {
+  opacity: 0.7;
 }
 .news .button1 {
   background-color: black;
@@ -383,8 +383,15 @@ footer ul li:hover {
   .news {
     margin: 0;
   }
-  .news .news1 {
-    margin: 0;
+  .news .news-item {
+    display: block;
+  }
+  .news .news-item .news1 {
+    width: 80%;
+    margin-left: 40px;
+  }
+  .news .news-item .news2 {
+    width: 100%;
   }
 
   .access .access-item {

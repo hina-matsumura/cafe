@@ -53,32 +53,32 @@
         display: flex;
         justify-content: space-between;
         .news1 {
-            margin-right: 100px;
+            width: 50%;
+            cursor: pointer;
             img {
-                width: 50%;
+                width: 90%;
             }
+            p {
+                font-size: 12px;
+                color: gray;
+            }
+        }
+        .news1:hover {
+            opacity: 0.7;
         }
         .news2 {
+            width: 75%;
+            cursor: pointer;
             img {
-                width: 50%;
+                width: 70%;
+            }
+            p {
+                font-size: 12px;
+                color: gray;
             }
         }
-    }
-    .news-item2 {
-        margin-top: 40px;
-        margin-bottom: 40px;
-        display: flex;
-        justify-content: space-between;
-        .news3 {
-            margin-right: 100px;
-            img {
-                width: 50%;
-            }
-        }
-        .news4 {
-            img {
-                width: 50%;
-            }
+        .news2:hover {
+            opacity: 0.7;
         }
     }
     .button1 {
@@ -341,8 +341,15 @@ footer {
     }
     .news {
         margin: 0;
-        .news1 {
-            margin: 0;
+        .news-item {
+            display: block;
+            .news1 {
+                width: 80%;
+                margin-left: 40px;
+            }
+            .news2 {
+                width: 100%;
+            }
         }
     }
     .access {
