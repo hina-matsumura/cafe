@@ -8,6 +8,9 @@
     header {
         display: flex;
         justify-content: space-between;
+        input[type="checkbox"]{
+            display: none;
+        }
         h1 {
             img {
             width: 10%;   
@@ -179,6 +182,9 @@ footer {
     border-bottom: 1px solid gray;
     display: flex;
     justify-content: space-between;
+    input[type="checkbox"]{
+        display: none;
+    }
     h1 {
         img {
         width: 10%;   
@@ -334,6 +340,9 @@ footer {
                     margin-left: 10px;
                 }
             }
+        input[type="checkbox"]{
+            display: none;
+        }
         .menu-btn {
             position: fixed;
             top: 10px;
