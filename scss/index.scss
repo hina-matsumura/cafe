@@ -70,18 +70,15 @@
             opacity: 0.7;
         }
         .news2 {
-            width: 75%;
+            width: 55%;
             cursor: pointer;
             img {
-                width: 70%;
+                width: 90%;
             }
             p {
                 font-size: 12px;
                 color: gray;
             }
-        }
-        .news2:hover {
-            opacity: 0.7;
         }
     }
     .button1 {
@@ -222,7 +219,7 @@ footer {
         font-size: 36px;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
-    .food-item {
+    .food-item- {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
@@ -247,7 +244,7 @@ footer {
         font-size: 36px;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
-    .drink-item {
+    .drink-item- {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
@@ -272,7 +269,7 @@ footer {
         font-size: 36px;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
-    .dessert-item {
+    .dessert-item- {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
@@ -289,7 +286,7 @@ footer {
         }
     }
 }
-.news1 {
+.news- {
     h2 {
         text-align: center;
         margin-top: 60px;
@@ -545,7 +542,7 @@ footer {
             left: 0;/*メニューを画面内へ*/
         }
         }
-    }
+}
     .food {
         .food-item {
             display: block;

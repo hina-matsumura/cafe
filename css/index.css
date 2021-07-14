@@ -83,18 +83,15 @@
   opacity: 0.7;
 }
 .news .news-item .news2 {
-  width: 75%;
+  width: 55%;
   cursor: pointer;
 }
 .news .news-item .news2 img {
-  width: 70%;
+  width: 90%;
 }
 .news .news-item .news2 p {
   font-size: 12px;
   color: gray;
-}
-.news .news-item .news2:hover {
-  opacity: 0.7;
 }
 .news .button1 {
   background-color: black;
@@ -252,7 +249,7 @@ footer ul li:hover {
   font-size: 36px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
-.food .food-item {
+.food .food-item- {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -262,15 +259,15 @@ footer ul li:hover {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-.food .food-item .image {
+.food .food-item- .image {
   width: 22%;
 }
-.food .food-item .image img {
+.food .food-item- .image img {
   width: 93%;
   margin-top: 10px;
   cursor: pointer;
 }
-.food .food-item .image img:hover {
+.food .food-item- .image img:hover {
   opacity: 0.7;
 }
 
@@ -283,7 +280,7 @@ footer ul li:hover {
   font-size: 36px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
-.drink .drink-item {
+.drink .drink-item- {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -293,15 +290,15 @@ footer ul li:hover {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-.drink .drink-item .image {
+.drink .drink-item- .image {
   width: 22%;
 }
-.drink .drink-item .image img {
+.drink .drink-item- .image img {
   width: 93%;
   margin-top: 10px;
   cursor: pointer;
 }
-.drink .drink-item .image img:hover {
+.drink .drink-item- .image img:hover {
   opacity: 0.7;
 }
 
@@ -314,7 +311,7 @@ footer ul li:hover {
   font-size: 36px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
-.dessert .dessert-item {
+.dessert .dessert-item- {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -324,26 +321,26 @@ footer ul li:hover {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-.dessert .dessert-item .image {
+.dessert .dessert-item- .image {
   width: 22%;
 }
-.dessert .dessert-item .image img {
+.dessert .dessert-item- .image img {
   width: 93%;
   margin-top: 10px;
   cursor: pointer;
 }
-.dessert .dessert-item .image img:hover {
+.dessert .dessert-item- .image img:hover {
   opacity: 0.7;
 }
 
-.news1 h2 {
+.news- h2 {
   text-align: center;
   margin-top: 60px;
   margin-bottom: 30px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 36px;
 }
-.news1 .news-item .image {
+.news- .news-item .image {
   cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -356,23 +353,23 @@ footer ul li:hover {
   width: 60%;
   margin-left: 250px;
 }
-.news1 .news-item .image img {
+.news- .news-item .image img {
   width: 30%;
   border-radius: 20px;
   margin-right: 30px;
 }
-.news1 .news-item .image .news-item2 {
+.news- .news-item .image .news-item2 {
   padding-right: 70px;
 }
-.news1 .news-item .image .news-item2 h3 {
+.news- .news-item .image .news-item2 h3 {
   font-size: 20px;
 }
-.news1 .news-item .image .news-item2 .date {
+.news- .news-item .image .news-item2 .date {
   font-size: 14px;
   color: gray;
   margin-bottom: 10px;
 }
-.news1 .news-item .image:hover {
+.news- .news-item .image:hover {
   opacity: 0.7;
 }
 
